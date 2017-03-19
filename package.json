@@ -1,0 +1,29 @@
+{
+  "name": "ak-starter",
+  "version": "1.0.0",
+  "description": "WP Development starter kit with Gulp and Browserify",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afifkhaidir/wp-theme-kit.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "gul"
+  ],
+  "author": "afifkhaidir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afifkhaidir/wp-theme-kit/issues"
+  },
+  "homepage": "https://github.com/afifkhaidir/wp-theme-kit#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
