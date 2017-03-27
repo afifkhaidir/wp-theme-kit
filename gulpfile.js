@@ -2,8 +2,8 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync');
 var sass = require('gulp-sass');
 var cleancss = require('gulp-clean-css');
-var uncss = require('gulp-uncss');
 var concat = require('gulp-concat-css');
+var uncss = require('gulp-uncss');
 
 var reload = browserSync.reload;
 
@@ -19,8 +19,6 @@ gulp.task('browser-sync', function() {
         notify: false   // disable notification
     });
     
-    // gulp.watch('./*.php').on('change', browserSync.reload);
-    // gulp.watch('./build/**/*.css').on('change', browserSync.reload);
 });
 
 gulp.task('build', function() {
