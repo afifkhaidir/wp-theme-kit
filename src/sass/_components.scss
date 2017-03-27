@@ -1,0 +1,11 @@
+@import 'variables';
+
+.btn-primary {
+    color: #fff;
+    background-color: $color-accent;
+    border-color: $color-accent;
+    &:hover {
+        background-color: #E65100;
+        border-color: #E65100;
+    }
+}

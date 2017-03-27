@@ -1,108 +1,32 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Fresh Market</title>
-  <?php wp_head(); ?>
-</head>
-<body>
-  <header class="fm-header">
+<?php get_header(); ?>
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
     <div class="container">
-      <div class="fm-brand pull-left">
-        <span class="fm-brand__text">Fresh Market</span>
+      <h1>Hello, world!</h1>
+      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
       </div>
-      <div class="fm-menu pull-right">
-        <ul>
-          <li class="fm-menu-list">
-            <a href="#" class="fm-menu-list__link">About</a>
-          </li>
-          <li class="fm-menu-list">
-            <a href="#" class="fm-menu-list__link">Products</a>
-          </li>
-          <li class="fm-menu-list">
-            <a href="#" class="fm-menu-list__link">Contact</a>
-          </li>
-        </ul>
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+     </div>
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
       </div>
     </div>
-  </header>
-  <section id="main" class="clearfix">
-    <div class="container">
-      <div class="brand">
-        <h1>Fresh Market</h1>
-      </div>
-    </div>
-  </section>
-  <section class="identity">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="identity__subtitle">Who we are</h3>
-          <p class="identity__p">Fresh market menyediakan kebutuhan buah dan sayur 
-            setiap hari. Buah dan sayur yang kami sediakan diambil langsung dari 
-            petani.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="products">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <div class="product">
-            <div class="product-display">
-              <img src="http://www.pngmart.com/files/1/Banana-PNG.png" class="product-display__img"/>
-            </div>
-            <div class="product-desc">
-              <p class="product-desc__p">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
-              </p>
-              <p class="product-desc__price">
-                Rp. 50000
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="product">
-            <div class="product-display">
-              <img src="http://www.pngmart.com/files/1/Banana-PNG.png" class="product-display__img"/>
-            </div>
-            <div class="product-desc">
-              <p class="product-desc__p">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
-              </p>
-              <p class="product-desc__price">
-                Rp. 50000
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="product">
-            <div class="product-display">
-              <img src="http://www.pngmart.com/files/1/Banana-PNG.png" class="product-display__img"/>
-            </div>
-            <div class="product-desc">
-              <p class="product-desc__p">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
-              </p>
-              <p class="product-desc__price">
-                Rp. 50000
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <?php wp_footer(); ?>
-  <script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:8081/browser-sync/browser-sync-client.js?v=2.18.8'><\/script>".replace("HOST", location.hostname));
-//]]></script>
-</body>
-</html>
+
+    <hr>
+<?php get_footer(); ?>
