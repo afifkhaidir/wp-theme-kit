@@ -1,32 +1,33 @@
 <?php get_header(); ?>
-  <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
-    <div class="container">
-      <h1>Hello, world!</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+  <div class="container p2">
+    <div class="max-width-4 mx-auto">
+      <div class="post">
+        <div class="post-image">
+          <img src="https://i0.wp.com/static.pexels.com/photos/292600/pexels-photo-292600.jpeg" alt="" class="post-image__img">
+        </div>
+        <h1 class="h1 my2">Salak Mountain</h1>
+        <h3 class="h3 my1">Unexpected Journey in Bogor</h2>
+        <p class="post__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+        quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+        dolor in hendrerit in vulputate velit esse molestie consequat,
+        vel illum dolore eu feugiat nulla facilisis at vero eros et
+        accumsan et iusto odio dignissim qui blandit praesent luptatum
+        zzril delenit augue duis dolore te feugait nulla facilisi.
+        Nam liber tempor cum soluta nobis eleifend option congue
+        nihil imperdiet doming id quod mazim placerat facer possim
+        assum. Typi non habent claritatem insitam; est usus legentis
+        in iis qui facit eorum claritatem. Investigationes
+        demonstraverunt lectores legere me lius quod ii legunt saepius.
+        Claritas est etiam processus dynamicus, qui sequitur mutationem
+        consuetudium lectorum. Mirum est notare quam littera gothica,
+        quam nunc putamus parum claram, anteposuerit litterarum formas
+        humanitatis per seacula quarta decima et quinta decima. Eodem
+        modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+        in futurum.</p>
+      </div>
     </div>
   </div>
-
-  <div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-     </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-      </div>
-    </div>
-
-    <hr>
 <?php get_footer(); ?>

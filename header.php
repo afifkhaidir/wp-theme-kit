@@ -6,27 +6,13 @@
   <?php wp_head(); ?>
 </head>
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">AK Starter</a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <form class="navbar-form navbar-right">
-          <div class="form-group">
-            <input type="text" placeholder="Email" class="form-control">
-          </div>
-          <div class="form-group">
-            <input type="password" placeholder="Password" class="form-control">
-          </div>
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </form>
-      </div><!--/.navbar-collapse -->
+  <header class="header p2">
+    <div class="max-width-4 mx-auto">
+      <a href="#" class="left header__brand">Brand Name</a>
+      <ul class="list-reset right">
+        <li class="inline-block ml1"><a href="#" class="header__menu-list">Home</a></li>
+        <li class="inline-block ml1"><a href="#" class="header__menu-list">About Me</a></li>
+        <li class="inline-block ml1"><a href="#" class="header__menu-list">Contact</a></li>
+      </ul>
     </div>
-  </nav>
+  </header>

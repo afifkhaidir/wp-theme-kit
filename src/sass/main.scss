@@ -1,11 +1,48 @@
 @import 'variables';
-@import 'components';
 
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: $color-primary;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $color-dark-primary;
+  }
 }
 
-.navbar {
-    background-color: $color-primary;
+.header {
+  font-family: 'Raleway', sans-serif;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E1E1E1;
+  height: 50px;
+  &__brand {
+    text-decoration: none;
+    color: $color-primary;
+    font-size: 1.5rem;
+    margin-top: -5px;
+  }
+  &__menu-list {
+    font-size: 0.9rem;
+  }
 }
+
+.post {
+  &-image {
+    height: 300px;
+    overflow: hidden;
+    &__img {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+  &__p {
+    color: $text-secondary;
+    line-height: 1.5em;
+  }
+}
+

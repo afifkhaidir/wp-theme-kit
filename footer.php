@@ -1,5 +1,7 @@
-    <footer class="fm-footer">
-      <p class="fm-footer__copy pull-left">&copy; 2017 AK Themes</p>
+    <footer class="main-footer p2">
+      <div class="max-width-4 mx-auto">
+        <p class="fm-footer__copy pull-left">&copy; 2017 <a href="https://github.com/afifkhaidir/wp-theme-kit">WP Theme Kit</a></p>
+      </div>
     </footer>
   </div>
   
