@@ -7,7 +7,7 @@
 </head>
 <body>
   <header class="header p2">
-    <div class="max-width-4 mx-auto">
+    <div class="max-width-4 mx-auto clearfix">
       <a href="#" class="left header__brand">Brand Name</a>
       <ul class="list-reset right">
         <li class="inline-block ml1"><a href="#" class="header__menu-list">Home</a></li>
