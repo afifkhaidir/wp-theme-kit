@@ -1,48 +1,75 @@
 @import 'variables';
 
+/*-----------
+Elements
+-------------*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-lora;
   font-size: 14px;
 }
+
 a {
   text-decoration: none;
+  border-bottom: 1px dotted $text-secondary;
   color: $color-primary;
   &:hover,
   &:focus {
     text-decoration: none;
     color: $color-dark-primary;
+    border-bottom: 1px dotted $text-secondary;
   }
 }
 
+/*-------------
+Header
+---------------*/
 .header {
-  font-family: 'Raleway', sans-serif;
+  font-family: $font-raleway;
   background: #FFFFFF;
   border-bottom: 1px solid #E1E1E1;
-  height: 50px;
-  &__brand {
+  &-brand {
     text-decoration: none;
     color: $color-primary;
     font-size: 1.5rem;
-    margin-top: -5px;
+    height: 35px;
+    border-bottom: none;
+    &__img {
+      height: 100%;
+    }
   }
   &__menu-list {
     font-size: 0.9rem;
+    border-bottom: none;
   }
 }
 
+/*-------------
+Content
+---------------*/
 .post {
   &-image {
-    height: 300px;
+    border-bottom: none;
+    border-radius: 5px;
     overflow: hidden;
-    &__img {
-      height: 100%;
-      width: 100%;
-      overflow: hidden;
+    &:hover {
+      border-bottom: none;
+    }
+  }
+  &-detail {
+    &__category {
+      font-size: 0.8rem;
     }
   }
   &__p {
     color: $text-secondary;
     line-height: 1.5em;
+    font-size: 1.2em;
   }
 }
 
+/*--------------
+Footer
+---------------*/
+.footer {
+  font-family: $font-raleway;
+}
