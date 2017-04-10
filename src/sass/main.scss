@@ -8,18 +8,6 @@ body {
   font-size: 14px;
 }
 
-a {
-  text-decoration: none;
-  border-bottom: 1px dotted $text-secondary;
-  color: $color-primary;
-  &:hover,
-  &:focus {
-    text-decoration: none;
-    color: $color-dark-primary;
-    border-bottom: 1px dotted $text-secondary;
-  }
-}
-
 /*-------------
 Header
 ---------------*/
@@ -38,8 +26,12 @@ Header
     }
   }
   &__menu-list {
+    color: $color-accent;
     font-size: 0.9rem;
     border-bottom: none;
+    &:hover {
+      color: $color-dark-accent;
+    }
   }
 }
 
@@ -47,6 +39,7 @@ Header
 Content
 ---------------*/
 .post {
+  border-bottom: 2px solid $color-divider;
   &-image {
     border-bottom: none;
     border-radius: 5px;

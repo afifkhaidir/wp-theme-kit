@@ -1,8 +1,9 @@
-$color-primary: #9C27B0;
-$color-dark-primary: #7B1FA2;
-$color-light-primary: #E1BEE7;
-$color-accent: #FF9800;
-$color-divider: #BDBDBD;
+$color-primary: #FF5722;
+$color-dark-primary: #E64A19;
+$color-light-primary: #FFCCBC;
+$color-accent: #607D8B;
+$color-dark-accent: darken($color-accent, 50%);
+$color-divider: lighten(#BDBDBD, 20%);
 
 $font-raleway: 'Raleway', sans-serif;
 $font-lora: 'Lora', serif;

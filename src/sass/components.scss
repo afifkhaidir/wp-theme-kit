@@ -1,11 +1,32 @@
 @import 'variables';
 
-.btn-primary {
-    color: #fff;
-    background-color: $color-accent;
-    border-color: $color-accent;
-    &:hover {
-        background-color: #E65100;
-        border-color: #E65100;
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted $text-secondary;
+  color: $text-primary;
+  transition: .2s;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $color-dark-primary;
+    border-bottom: 1px dotted $text-secondary;
+  }
+}
+
+.btn {
+    display: inline-block;
+    font-family: $font-raleway;
+    &-primary {
+        color: $text-primary;
+        background-color: transparent;
+        border: 1px solid $color-light-primary;
+        border-radius: 50px 50px;
+        padding: 8px 16px;
+        transition: .2s;
+        &:hover {
+            background-color: $color-primary;
+            border-color: $color-primary;
+            color: #FFF;
+        }
     }
 }
